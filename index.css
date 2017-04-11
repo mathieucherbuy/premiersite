@@ -1,0 +1,47 @@
+*
+{    text-align: center; /*texte aligner au centre*/
+	   font-family: Arial, Timenewroman, sans serif;
+	    color: black; /*couleur du texte noir*/
+	       background: url("../") center center fixed no-repeat; /*fons = fons.jpg et ne se repete pas*/
+	       -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+a /* Liens par défaut (non survolés) */
+{ text-decoration: none;
+   color: black;
+   font-style: italic;}
+
+a:hover /* Apparence au survol des liens */
+{color: black;}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{color: black;} /* Appliquer une couleur grise */
+
+a:active
+{color: black;} /*lorsque l'on clique sur les liens, ils sont bleu*/
+
+p 
+{margin: 20px;}
+
+.bitmoji
+{float: left;} /*bit moji a gauche*/
+
+.bienvenue
+{background-color: white;} /*bienvenue fons = blanc*/
+
+#conteneur
+{display: flex;}
+
+.element1
+{background-color: grey;} 
+
+.element2
+{background-color: silver;}
+
+.element3
+{background-color: black;}
+
+.element3couleur
+{color: white;}
